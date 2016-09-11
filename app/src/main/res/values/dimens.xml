@@ -1,0 +1,46 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Dimensions for Main Activity -->
+    <dimen name="main_activity_margin_top">40dp</dimen>
+    <dimen name="buttons_margin_top">40dp</dimen>
+    <dimen name="buttons_margin_bottom">10dp</dimen>
+    <dimen name="button_padding_sides">40dp</dimen>
+    <dimen name="button_padding_top_bottom">15dp</dimen>
+    <dimen name="buttons_total_width">200dp</dimen>
+    <dimen name="background_padding">60dp</dimen>
+    <dimen name="button_corners">10dp</dimen>
+
+    <!-- Dimensions for Clock Activity -->
+    <dimen name="clock_padding_top_bottom">20dp</dimen>
+    <dimen name="clock_padding_sides">10dp</dimen>
+    <dimen name="settings_button_width">40dp</dimen>
+    <dimen name="settings_button_height">40dp</dimen>
+    <dimen name="clock_button_side_margins">20dp</dimen>
+    <dimen name="clock_margin">10dp</dimen>
+
+    <!-- Dimensions for Settings Activity -->
+    <dimen name="settings_margin_sides">20dp</dimen>
+    <dimen name="settings_margin_top_bottom">20dp</dimen>
+    <dimen name="settings_input_margin_left">10dp</dimen>
+    <dimen name="dropdown_label_textSize">18sp</dimen>
+    <dimen name="dropdown_description_textSize">14sp</dimen>
+    <dimen name="color_label_textSize">18sp</dimen>
+    <dimen name="time_label_textSize">16sp</dimen>
+    <dimen name="dropdown_textSize">16sp</dimen>
+    <dimen name="dropdown_box_width">1sp</dimen>
+    <dimen name="dropdown_corners">6dp</dimen>
+    <dimen name="dropdown_padding_sides">20dp</dimen>
+    <dimen name="dropdown_padding_top_bottom">5dp</dimen>
+    <dimen name="settings_margin_bottom">20dp</dimen>
+    <dimen name="dropdown_margin_top">5dp</dimen>
+    <dimen name="settings_button_margin">4dp</dimen>
+
+
+    <!-- Text sizes -->
+    <dimen name="title_text_size">50sp</dimen>
+    <dimen name="buttons_text_size">16dp</dimen>
+    <dimen name="clock_text_size">80sp</dimen>
+</resources>

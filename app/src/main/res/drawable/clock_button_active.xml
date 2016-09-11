@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="@dimen/button_corners"></corners>
+    <solid android:color="@color/clock_active_background_blue"></solid>
+    <padding android:left="@dimen/clock_padding_sides" android:right="@dimen/clock_padding_sides"
+        android:bottom="@dimen/clock_padding_top_bottom" android:top="@dimen/clock_padding_top_bottom"></padding>
+</shape>

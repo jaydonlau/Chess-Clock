@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="home_background_white">#fafafa</color>
+    <color name="home_button_blue">#0a1451</color>
+    <color name="clock_inactive_background_purple">#ccbedc</color>
+    <color name="clock_active_background_blue">#0a1451</color>
+    <color name="clock_finish_background_red">#99171a</color>
+    <color name="home_button_text_white">#fafafa</color>
+    <color name="clock_active_text">#fafafa</color>
+    <color name="clock_inactive_text">#000000</color>
+    <color name="dropdown_box_outline">#000000</color>
+</resources>

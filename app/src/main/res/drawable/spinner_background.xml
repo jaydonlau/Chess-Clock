@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@android:color/transparent"></solid>
+    <stroke android:width="@dimen/dropdown_box_width" android:color="@color/dropdown_box_outline"></stroke>
+    <corners android:radius="@dimen/dropdown_corners"></corners>
+    <padding android:left="@dimen/dropdown_padding_sides" android:right="@dimen/dropdown_padding_sides"
+        android:bottom="@dimen/dropdown_padding_top_bottom" android:top="@dimen/dropdown_padding_top_bottom"></padding>
+</shape>

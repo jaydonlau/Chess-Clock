@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_height="0dp"
+        app:layout_heightPercent="45%"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:id="@+id/clock1"
+        android:textSize="@dimen/clock_text_size"
+        android:layout_margin="@dimen/clock_margin"
+        android:background="@drawable/clock_button_inactive"
+        android:gravity="center"
+        android:textAllCaps="false"/>
+
+    <LinearLayout
+        android:layout_height="0dp"
+        app:layout_heightPercent="10%"
+        android:layout_width="match_parent"
+        android:id="@+id/clock_settings_group"
+        android:orientation="horizontal"
+        android:layout_below="@+id/clock1"
+        android:gravity="center">
+        <ImageButton
+            android:layout_width="@dimen/settings_button_width"
+            android:layout_height="@dimen/settings_button_height"
+            android:id="@+id/clock_pause_button"
+            android:background="@drawable/pause"
+            android:layout_marginRight="20dp"
+            android:visibility="gone"/>
+        <ImageButton
+            android:layout_width="@dimen/settings_button_width"
+            android:layout_height="@dimen/settings_button_height"
+            android:background="@drawable/refresh"
+            android:id="@+id/clock_reset_button"
+            android:contentDescription="@string/reset_clock"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_height="0dp"
+        app:layout_heightPercent="45%"
+        android:layout_width="match_parent"
+        android:id="@+id/clock2"
+        android:layout_below="@+id/clock_settings_group"
+        android:textSize="@dimen/clock_text_size"
+        android:layout_margin="@dimen/clock_margin"
+        android:background="@drawable/clock_button_inactive"
+        android:gravity="center"
+        android:textAllCaps="false"/>
+
+</android.support.percent.PercentRelativeLayout>

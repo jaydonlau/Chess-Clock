@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Chess Clock</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="start_button">Start!</string>
+    <string name="reset_clock">Reset Clock</string>
+    <string name="settings_dropdown_label">Time Control Type</string>
+    <string name="settings_dropdown_delay">Delay (seconds)</string>
+    <string name="settings_white_label">White</string>
+    <string name="settings_black_label">Black</string>
+    <string name="settings_hours_label">Hours</string>
+    <string name="settings_minutes_label">Minutes</string>
+    <string name="settings_seconds_label">Seconds</string>
+    <string name="default_number">0</string>
+    <string name="default_setting">Fischer</string>
+    <string-array name="settings_time_control_dropdown">
+        <item>Fischer</item>
+        <item>Bronstein delay</item>
+        <item>Simple delay</item>
+        <item>Overtime penalty</item>
+    </string-array>
+    <string name="save_button">Save</string>
+    <string name="chess_background_description">Chess Background Image</string>
+</resources>

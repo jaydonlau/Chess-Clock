@@ -14,6 +14,7 @@ Supports the following time controls:
 - Overtime Penalty (When the time runs out, the clock begins counting up)
 
 Other features:
+- Includes milliseconds display
 - Clicking sound is played after every move
 - Clock can be reset (has a confirm dialog to prevent misclicks)
 - Clock can be paused
